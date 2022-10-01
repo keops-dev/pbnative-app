@@ -10,12 +10,15 @@ authors = [
 readme = "README.md"
 dynamic = ["version"]
 
-[tool.setuptools.dynamic]
-version = {attr = "pbnative.__version__.version"}
+[project.urls]
+"Homepage" = "https://github.com/keops-dev/pbnative-app
 
 [project.scripts]
 pbnative-setup = "pbnative:setup"
 pbnative-start = "pbnative:start"
+
+[tool.setuptools.dynamic]
+version = {attr = "pbnative.__version__.version"}
 
 [tool.setuptools.package-data]
 pbnative = ["*.txt", "*.json"]
