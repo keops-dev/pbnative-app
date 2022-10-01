@@ -1,0 +1,2 @@
+[console_scripts]
+pbnative-config = pbnative:config

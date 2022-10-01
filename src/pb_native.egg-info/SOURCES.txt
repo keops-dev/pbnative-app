@@ -1,0 +1,10 @@
+README
+pyproject.toml
+src/pb_native.egg-info/PKG-INFO
+src/pb_native.egg-info/SOURCES.txt
+src/pb_native.egg-info/dependency_links.txt
+src/pb_native.egg-info/entry_points.txt
+src/pb_native.egg-info/top_level.txt
+src/pbnative/__init__.py
+src/pbnative/__main__.py
+src/pbnative/install.py
